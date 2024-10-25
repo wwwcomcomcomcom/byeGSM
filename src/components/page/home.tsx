@@ -28,12 +28,12 @@ const stories: Story[] = [
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center gap-10 my-10">
+      <div className="flex flex-col items-center justify-center gap-10 h-[calc(100vh-60px)]">
         {stories.map((story, i) => (
           <StorySection story={story} isRight={i % 2 !== 0} />
         ))}
       </div>
-      <div className="flex flex-col mt-32 gap-40 items-center">
+      <div className="flex flex-col mt-32 gap-20 items-center">
         <h1 className="text-5xl">이런 고민을 해결해줄 해결사!</h1>
         <h2 className="text-6xl">Bye, GSM</h2>
         <img src={icon} alt="icon" className="w-96 animate-spin" />

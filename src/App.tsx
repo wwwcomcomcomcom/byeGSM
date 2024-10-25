@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavigationLayout from "./components/navigationLayout";
 import Home from "./components/page/home";
-import OneseoPage from "./components/page/oneseo";
 import WhyPage from "./components/page/why";
+import OneseoPage from "./components/page/oneseo/oneseo";
 
 function App() {
   return (
